@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_architecture/view/authenticate/login/model/user.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

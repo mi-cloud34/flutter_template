@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_architecture/core/components/cards/not_found_navigator.dart';
 import 'package:flutter_architecture/core/constants/navigation/navigation_constants.dart';
 import 'package:flutter_architecture/view/authenticate/login/view/login_view.dart';
-import 'package:flutter_architecture/view/home/home/view/first_page.dart';
 import 'package:flutter_architecture/view/home/home/view/home_page.dart';
 import 'package:flutter_architecture/view/home/pomvardimas/view/pomvardimas_view.dart';
 
@@ -18,8 +17,6 @@ class NavigationRoute {
 
       case NavigationConstants.LOGIN_VIEW:
         return normalNavigate(const LoginView(), NavigationConstants.LOGIN_VIEW);
-      case NavigationConstants.FIRST_PAGE:
-        return normalNavigate(const FirstPage(), NavigationConstants.FIRST_PAGE);
       case NavigationConstants.HOME_VIEW:
         return normalNavigate(const HomePage(), NavigationConstants.HOME_VIEW);
       case NavigationConstants.POMVARDIMAS:
